@@ -1,0 +1,6 @@
+query getUserWithPass($email: String) {
+  usuario(where: { email: $email }) {
+    name
+    password
+  }
+}

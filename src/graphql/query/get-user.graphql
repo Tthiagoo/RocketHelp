@@ -1,0 +1,5 @@
+query getUser($email: String) {
+  usuario(where: { email: $email }) {
+    name
+  }
+}
